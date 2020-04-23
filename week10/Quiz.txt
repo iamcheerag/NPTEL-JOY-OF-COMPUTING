@@ -1,0 +1,66 @@
+1.	What is the relationship between RANBIR and ALIA according to the game FLAMES?
+	Love
+	Marriage 		-Correct
+	Friends
+	Enemy
+
+2.	What is the output of the following program?
+	import numpy as np
+	a = np.array([1,2,3,5,8])
+	b = np.array([0,3,4,2,1])
+	c=a+b
+	c = c*a
+	print (c[2])
+	
+	20
+	21				-Correct
+	26
+	27 
+	
+3.	What is the output of the statement a.size if a is a numpy array defined as a = np.array([[1,2,3],[0,1,4]])?
+	4
+	5
+	6				-Correct
+	7
+
+4.	What is the output of the following Python program?
+	import numpy as np
+	a = np.array([[0, 1, 0], [1, 0, 1]])
+	a += 3
+	b=a+3
+	print (a[1,2] + b[1,2])
+	
+	10
+	11				-Correct
+	12
+	13
+
+5.	If the string s="Python" then what is the output of the statement s[::-1]?
+	"Python"
+	"onthPy"
+	"Pythno"
+	"nohtyP"		-Correct
+	
+	
+6.	State True or False.
+		   numpy.asanyarray(input) converts input to an ndarray. Here, input can be scalars, lists, lists of tuples, tuples, tuples of tuples, tuples of lists.
+	
+	True			-Correct
+	False
+
+
+7.	Which of the following attributes is used to obtain picture size using PIL in Python?
+	shape
+	size			-Correct
+	area
+	volume
+
+
+8.	What is the output of the statement print(s.upper()) if s=’SImRan’ ?
+	SIMRAN			-Correct
+	SIMran
+	SiMrAn
+	None of the above
+
+
+	

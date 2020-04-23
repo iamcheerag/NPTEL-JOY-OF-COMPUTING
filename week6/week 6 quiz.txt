@@ -1,0 +1,111 @@
+1.	What is the output of the following program?
+	x = "abcdef"
+	i = "a"
+	while i in x:
+		print(i, end = " ")
+
+	
+	i i i ...infinite times
+	a b c d e f ...infinite times
+	a b c d e f
+	a a a a a...infinite times			-Correct
+
+2.	Which of the following arithmetic operators can be used with strings?
+	
+	++
+	–
+	+									-Correct
+	None of the above
+
+
+3.	What is the output of the following code snippet?
+	line = "What will have so will"
+	L = line.split('a')
+	for i in L:
+		print(i, end=' ')
+	
+
+	[‘What’, ‘will’, ‘have’, ‘so’, ‘will’]
+	Wh t will h ve so will						-Correct
+	What will have so will
+	[‘Wh’, ‘t will h’, ‘ve so will’]
+
+
+4	Fill in the code to complete the following function for computing factorial:
+	def factorial(n):
+	  if n == 0:
+		return 1
+	  else:
+		return .......
+	factorial(n-1)*n
+	n*(n-1)
+	n*factorial(n-1)
+	Either A or C								-Correct
+	
+	
+5.	A palindrome is a word, number, phrase, or other sequence of characters which reads the same backward
+	as forward. Fill in the code to complete the following function for checking whether a string is a palindrome.
+	
+	def isPalindrome(s):
+	  if len(s) != 1:
+		return True
+	  elif s[0] != s[-1]:
+		return False
+	  else:
+		return isPalindrome(s.substring(1, len(s) - 1)) 
+		
+		
+		s[0] != s[-1]:
+		s[0] != s[len(s)]:
+		s[1] != s[len(s)-1]:
+		s[1] != s[len(s)]:
+	
+6.	What is the output of the following recursive function?
+	def test(i,j):
+	  if(i==0):
+		return j
+	  else:
+		return test(i-1,i+j)
+	print(test(4,7))
+	
+	17					-correct
+	7
+	13
+	10
+	
+7.	What is the game strategy used in the Tic Tac Toe game?
+	
+	Divide and Conquer
+	Min-Max Strategy				-correct
+	Greedy Strategy
+	None of the above
+
+		
+8.	What does the following function do?
+	def fun(n):
+	  if (n == 0 or n == 1):
+		return n
+	  if (n%3 != 0):
+		return 0
+	  return fun(n/3)
+
+	It returns 1 when n is a multiple of 3, otherwise returns 0
+	It returns 1 when n is a power of 3, otherwise returns 0				-correct
+	It returns 0 when n is a multiple of 3, otherwise returns 1
+	t returns 0 when n is a power of 3, otherwise returns 1 
+
+
+9.	Which of the following statements is correct regarding recursion and iteration?
+	
+	The code size in case of recursion is smaller than that of iteration
+	The time taken for execution of program in case of recursion is more than that of iteration
+	Iteration is terminated through base case and recursion is terminated when the iterator condition is not satisfied
+	Both A and B				-correct
+	
+	
+10.	If COMPUTER is denoted as KPDITWQC and SCIENCE is denoted as YKHQLKQ, how is SET denoted by this encoding scheme?
+	YQW				-correct
+	RAVP
+	OXS
+	FML
+

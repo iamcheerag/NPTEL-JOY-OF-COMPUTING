@@ -1,0 +1,80 @@
+1.	Binary search algorithm uses
+	Linear way to search values
+	Divide and conquer method  - correct
+	Bubble sorting technique
+	None of them
+
+2.	The number of swaps needed to sort the numbers [8, 22, 7, 9, 31, 5, 13] in ascending order, using bubble sort is
+	10  						- correct
+	11
+	12
+	13
+
+3.	Suppose a list is [2, 9, 5, 4, 8, 1]. After the first pass of bubble sort (while sorting in ascending order), the list becomes
+	2,9,5,4,1,8
+	2,5,9,4,8,1
+	2,5,4,8,1,9					- correct
+	2,1,5,4,8,9
+
+4.	Which of the following is TRUE in the Monty Hall game with 3 doors?
+	Number of doors containing the bumper prize is greater than number of doors containing the goat
+	Number of doors containing the goat is greater than number of doors containing the bumper prize
+	Number of doors containing the goat is equal to the number of doors containing the bumper prize
+	The player just gets one chance to choose his door
+
+5.	Which file format is supported by Python Speech Recognition library?
+	mp3
+	wav					-correct
+	Both A and B
+	None of the above
+	
+	
+6.	Consider the secure Rock Paper Scissors game
+	0->Rock
+	1->Paper
+	2 ->Scissors
+	Player 1’s input : 1000010210
+	Player 2’s input : 1012010211 
+	Who won?
+	Player 1
+	Player 2  					- correct
+	Draw
+	Data Insufficient
+	
+7.	In the simple Monte Hall game, we had 3 doors and 1 door contained a prize. The player has to guess
+	which door could possibly contain the prize. That door would be opened and if it contains the prize he
+	wins it. If more doors are added, the player has more choices to guess. What do you think will happen
+	to the probability (i.e. chance) of winning if more doors are added?
+	Increases
+	Decreases  					- correct
+	None of the above
+
+8.	In rock, paper, scissors game, how many combinations of choices made by the players are possible?((Rock, Paper) and (Paper, Rock) are considered different combinations.)
+	9  				 - correct
+	27
+	18
+	6
+
+
+9.	In Rock, Paper and Scissors game, if one of the players shows Scissors then which of the following is/are TRUE?
+	1. He is guaranteed to win the game if the other player shows Rock.
+	2. He is guaranteed to win the game if the other player does not show Rock.
+	3. He is guaranteed to win the game if the other player shows Paper.
+	4. He is guaranteed to lose the game if the other player shows Paper.
+	1 and 4
+	2,3 and 4
+	2 and 3	
+	Only 3 			- correct
+
+
+10.	The average number of key comparisons done in a successful sequential search in a list of length 9 is
+	5 				- correct
+	6
+	10
+	45
+
+	
+	
+	
+	
+	

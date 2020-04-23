@@ -1,0 +1,73 @@
+1.	What will be the output of following program?
+	numbers = [1, 2, 3, 4]
+	numbers.append([5,6,7,8])
+	print(len(numbers))
+	4
+	5 - correct number = [1,2,3,4,(5,6,7,8)]
+	8
+	12
+
+
+2.	What will be displayed by the following code?
+	list1 = [1, 3]
+	list2 = list1
+	list1[0] = 4
+	print(list2)
+	[4,3] - correct since reference is same then change in one leads to change in all.
+	[1,3]
+	[1,4]
+	[1,2,3]
+
+3.	What does the function random.randrange(49,150) return in Python?
+	It returns a random number from 49 to 150  - correct last number is included in random.randrange
+	It returns a random number from 49 to 149
+	It returns a random number from 50 to 150
+	It returns a random number from 50 to 149
+
+4.	Which of the following options is the possible outcome of the function shown below? 
+	random.randrange(1,100,10)
+	22
+	9
+	101
+	91 - correct
+	
+5.	What can be the output of the following code snippet?
+	list = [55, 66, 77, 88, 99]
+	print(random.choice(list))
+	100
+	99
+	55
+	Either B or C  - correct (random.choice select the number from the list hence 100 is not in list to b,c is correct)
+
+6.	If the word in your mind is HIT, in how many ways can you pose the jumbled question?
+	5 - correct (3!=6) exclude HIT and makes it 5
+	6
+	7
+	8
+
+7.	How is trimmed mean calculated?
+	Sort the values then remove top 10% or bottom 10% of the values
+	Sort the values then remove top 10% and bottom 10% of the values  - correct
+	Sort the values then remove top 10% of the values
+	Sort the values then remove bottom 10% of the values
+	Yes, the answer is correct.
+
+
+8.	State True or False.
+		   Matplotlib in Python can only generate line graphs.
+	True
+	False - False
+
+
+9.	What is the output of the following matplotlib program?
+	
+	from matplotlib import pyplot as plt
+	x = [1, 2, 3, 4, 5]
+	y = [1, 2, 3, 4, 5]
+	plt.plot(x,y)
+	plt.show()
+	
+	A straight line - correct
+	A parabola
+	A zig-zag pattern
+	None of the above
